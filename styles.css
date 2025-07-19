@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header
+{
+	background-color: transparent;
+	align-items: center;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	left: 0;
+	top: 0;
+	padding: 25px 100px;
+	position: fixed;
+	z-index: 99;
+}
+
+.nav_bar
+{
+	color: chartreuse;
+	font-size: 20px;
+	font-weight: 500;
+	margin-right: 30px;
+	text-decoration: none;
+
+}
+body
+{
+	background: image-set(url("Images/Logo/Untitled image.png") no-repeat);
+	background-position: center;
+	background-size: contain;
+	min-height: 100%;
+
+}
+.room-content
+{
+	padding: 5%;
+}
+
+.gallery-list
+{
+    list-style: none;
+	gap: 10%;
+}
+.room-content .room-types:hover .room-item
+{
+	cursor: zoom-in;
+	transition: 0.5s ease-in-out;
+    transform: scale(1.2);
+}
+.home
+{
+	padding: 10%;
+}
+.home h1 
+{
+	padding: 2%;
+	font-size: 35px;
+	
+	text-indent: 25%;
+}
+.apartments h1
+{
+	padding: 5%;
+	font-size: 18px;
+	text-indent: 20%;
+}
