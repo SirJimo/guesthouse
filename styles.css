@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 	font-family: "Poppins", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
-    color:black;
+    color: darkslategrey;
 }
 
 header
@@ -25,10 +25,11 @@ header
 
 section
 {
-	background: url("Images/Logo/wallpaperflare.com_wallpaper.jpg") ;
-	background-size:fill;
-	min-height:100%;
-	backdrop-filter: blur(30px);
+	background-image: url("Images/Logo/WhatsApp Image 2025-07-20 at 12.53.52_bb85e9c6.jpg");
+	background-size: fill;
+	height: fit-content;
+	width:100%;
+	
 	
 }
 .nav_bar
@@ -109,7 +110,7 @@ section
 }
 .home h4
 {
-	font-size: 20px;
+	font-size: 30px;
 	text-align: justify;
 	font-weight: bold;
 	font-style: italic;
@@ -119,7 +120,7 @@ section
 .home li
 {
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 20px;
+	font-size: 25px;
 	color: black;
 	justify-content: space-between;
 	
@@ -245,4 +246,8 @@ button:hover
     background-color: darkslategray;
     color: antiquewhite;
     cursor: pointer;
+}
+.payment a
+{
+	font-size: 20px;
 }
