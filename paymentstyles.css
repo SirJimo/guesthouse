@@ -1,0 +1,144 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:aliceblue; 
+}
+body
+{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: url("Images/404 WEX1 By Perch Stays With Daily HouseKeeping/557448861.jpg") no-repeat;
+    backdrop-filter: blur(10%);
+    justify-items: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+.message
+{
+   padding: 10%;
+   font-size: 25px; 
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-indent: 10%;
+   text-align: center;
+
+}
+.content
+{
+    color: darkslategray;
+}
+.container
+{
+    padding: 5%;
+    border: 1px ;
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    backdrop-filter: blur(5px);
+    
+    
+    
+}
+
+.center_info
+{
+    border-right: 2px solid darkgrey;
+    border-left: 2px solid darkgrey;
+    border-top: 1px solid darkslategrey;
+    border-bottom: 1px solid darkslategrey;
+    height: 80vh;
+    width: 60%;
+}
+.center_info a
+{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    width: 40%;
+}
+.card-info
+{
+    padding: 20px 80px;
+}
+.card-info .card-number
+{
+    border: 2px solid;
+    border-radius: 3px;
+    align-items: center;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0 12px;
+    height: 50px;
+}
+input
+{
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    background: transparent;
+}
+.card-details
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    width: 70%;
+}
+.card-expiry
+{
+    border:2px solid;
+    border-radius: 3px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 12px;
+    width: 150px;
+}
+.card-details .cvv
+{
+    border: 2px solid;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 10px;
+    padding: 12px;
+    width: 110px;
+}
+.card-cvv
+{
+    width: 60px;
+}
+.email input
+{
+    border: 2px solid;
+    border-radius: 3px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 12px;
+    width: 70%;
+}
+button
+{
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: greenyellow;
+    color: darkslategray;
+}
+button:hover
+{
+    background-color: darkslategray;
+    color: antiquewhite;
+    cursor: pointer;
+}
