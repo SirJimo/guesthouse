@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 	font-family: "Poppins", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
-    color: darkslategrey;
+    color:azure;
 }
 
 header
@@ -23,13 +23,14 @@ header
 	z-index: 99;
 }
 
-section
+body
 {
-	background-image: url("Images/Logo/WhatsApp Image 2025-07-20 at 12.53.52_bb85e9c6.jpg");
-	background-size: fill;
-	height: fit-content;
-	width:100%;
+	background: url("Images/Logo/cape town4.jpg");
 	
+	background-size:contain;
+	min-height: 100%;
+	width:100%;
+	opacity: 80%;
 	
 }
 .nav_bar
@@ -75,9 +76,9 @@ section
 }
 .room-content .room-types:hover .room-item
 {
-	cursor: zoom-in;
-	transition: 0.5s ease-in-out;
-    transform: scale(1.2);
+	cursor:zoom-out;
+	transition: 0.3s ease-in-out;
+    transform: scale(1.1);
 }
 .home
 {
@@ -121,7 +122,7 @@ section
 {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size: 25px;
-	color: black;
+	color:aliceblue;
 	justify-content: space-between;
 	
 }
@@ -145,109 +146,9 @@ section
 }
 
 
-.container
-{
-    border: 1px solid;
-    border-radius: 6px;
-    display: flex;
-    width: 100%;
-}
-
-.center
-{
-    border-right: 2px solid darkgrey;
-    border-left: 2px solid darkgrey;
-    height: 80vh;
-    width: 100%;
-}
-.center a
-{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-    width: 100%;
-}
-.card-info
-{
-    padding: 20px 80px;
-}
-.card-info .card-number
-{
-    border: 2px solid;
-    border-radius: 3px;
-    align-items: center;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    padding: 0 12px;
-    height: 50px;
-}
-input
-{
-    border: none;
-    border-radius: 3px;
-    outline: none;
-}
-.card-details
-{
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
-    width: 100%;
-}
-.card-expiry
-{
-    border:2px solid;
-    border-radius: 3px;
-    height: 50px;
-    margin-top: 10px;
-    padding: 12px;
-    width: 150px;
-}
-.card-details .cvv
-{
-    border: 2px solid;
-    border-radius: 3px;
-    display: flex;
-    justify-content: space-between;
-    height: 50px;
-    margin-top: 10px;
-    padding: 12px;
-    width: 110px;
-}
-.card-cvv
-{
-    width: 60px;
-}
-.email input
-{
-    border: 2px solid;
-    border-radius: 3px;
-    height: 50px;
-    margin-top: 10px;
-    padding: 12px;
-    width: 100%;
-}
-button
-{
-    border: none;
-    border-radius: 3px;
-    width: 100%;
-    height: 50px;
-    margin-top: 30px;
-    font-size: 20px;
-    background-color: greenyellow;
-    color: darkslategray;
-}
-button:hover
-{
-    background-color: darkslategray;
-    color: antiquewhite;
-    cursor: pointer;
-}
 .payment a
 {
+	padding-bottom: 5%;
 	font-size: 20px;
+	padding-left: 60%;
 }
